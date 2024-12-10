@@ -1,21 +1,22 @@
 {
+  "homepage": "https://SaadWaseem28.github.io/Expense-Tracker",
   "name": "expense-tracker",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://SaadWaseem28.github.io/Expense-Tracker",
   "scripts": {
+     "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
     "formik": "^2.4.6",
     "framer-motion": "^11.13.1",
+    "install": "^0.13.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.53.2",
